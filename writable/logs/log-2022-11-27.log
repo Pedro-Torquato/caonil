@@ -1,0 +1,230 @@
+CRITICAL - 2022-11-27 11:25:34 --> Invalid file: home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(254): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:22:59 --> Undefined variable $resultado
+in APPPATH\Views\buscar.php on line 41.
+ 1 APPPATH\Views\buscar.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\buscar.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('buscar', [], true)
+ 5 APPPATH\Controllers\Home.php(278): view('buscar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:25:21 --> Call to a member function getResultObject() on null
+in APPPATH\Views\buscar.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('buscar', [], true)
+ 4 APPPATH\Controllers\Home.php(283): view('buscar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:28:10 --> Unclosed '{' on line 40
+in APPPATH\Views\buscar.php on line 61.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('buscar', [], true)
+ 3 APPPATH\Controllers\Home.php(283): view('buscar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:28:21 --> Call to a member function getNumRows() on null
+in APPPATH\Views\buscar.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('buscar', [], true)
+ 4 APPPATH\Controllers\Home.php(283): view('buscar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:28:33 --> Call to a member function getNumRows() on null
+in APPPATH\Views\buscar.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('buscar', [], true)
+ 4 APPPATH\Controllers\Home.php(283): view('buscar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:28:36 --> Call to a member function getNumRows() on null
+in APPPATH\Views\buscar.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('buscar', [], true)
+ 4 APPPATH\Controllers\Home.php(283): view('buscar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:30:02 --> Undefined array key "buscar"
+in APPPATH\Models\UserModel.php on line 161.
+ 1 APPPATH\Models\UserModel.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "buscar"', 'APPPATH\\Models\\UserModel.php', 161)
+ 2 APPPATH\Controllers\Home.php(276): App\Models\UserModel->procura_pet(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:31:01 --> Call to a member function getGet() on null
+in APPPATH\Models\UserModel.php on line 161.
+ 1 APPPATH\Controllers\Home.php(276): App\Models\UserModel->procura_pet(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:39:45 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 286.
+ 1 APPPATH\Controllers\Home.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Home.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:40:09 --> Undefined variable $pesquisa
+in APPPATH\Controllers\Home.php on line 277.
+ 1 APPPATH\Controllers\Home.php(277): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pesquisa', 'APPPATH\\Controllers\\Home.php', 277)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:40:53 --> Undefined variable $resultado
+in APPPATH\Views\buscar.php on line 34.
+ 1 APPPATH\Views\buscar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\buscar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('buscar', [], true)
+ 5 APPPATH\Controllers\Home.php(288): view('buscar', [])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:41:29 --> Undefined variable $resultado
+in APPPATH\Views\buscar.php on line 35.
+ 1 APPPATH\Views\buscar.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\buscar.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('buscar', [], true)
+ 5 APPPATH\Controllers\Home.php(288): view('buscar', [])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:42:27 --> Undefined variable $resultado
+in APPPATH\Views\buscar.php on line 34.
+ 1 APPPATH\Views\buscar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\buscar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('buscar', [], true)
+ 5 APPPATH\Controllers\Home.php(288): view('buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:43:35 --> Undefined variable $resultado
+in APPPATH\Views\buscar.php on line 35.
+ 1 APPPATH\Views\buscar.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\buscar.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('buscar', [], true)
+ 5 APPPATH\Controllers\Home.php(288): view('buscar', [])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:43:46 --> Undefined variable $resultado
+in APPPATH\Views\buscar.php on line 35.
+ 1 APPPATH\Views\buscar.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\buscar.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('buscar', [], true)
+ 5 APPPATH\Controllers\Home.php(288): view('buscar', [])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:44:14 --> Undefined variable $resultado
+in APPPATH\Views\buscar.php on line 35.
+ 1 APPPATH\Views\buscar.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Views\\buscar.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('buscar', [], true)
+ 5 APPPATH\Controllers\Home.php(288): view('buscar', [])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:10:37 --> Call to undefined function App\Models\id()
+in APPPATH\Models\UserModel.php on line 80.
+ 1 APPPATH\Controllers\Home.php(303): App\Models\UserModel->meus_pets()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->meu_pet()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:11:03 --> Attempt to read property "nome" on null
+in APPPATH\Views\meu_pet.php on line 33.
+ 1 APPPATH\Views\meu_pet.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on null', 'APPPATH\\Views\\meu_pet.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\meu_pet.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('meu_pet', [], true)
+ 5 APPPATH\Controllers\Home.php(311): view('meu_pet', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->meu_pet()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:11:50 --> Undefined property: mysqli::$nome
+in APPPATH\Views\meu_pet.php on line 33.
+ 1 APPPATH\Views\meu_pet.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nome', 'APPPATH\\Views\\meu_pet.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\meu_pet.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('meu_pet', [], true)
+ 5 APPPATH\Controllers\Home.php(311): view('meu_pet', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->meu_pet()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:15:03 --> Undefined constant "Config\sob"
+in SYSTEMPATH\Config\Factories.php on line 129.
+ 1 SYSTEMPATH\Common.php(203): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\Config\Services.php(283): config('Filters')
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::filters(null, false)
+ 4 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+ 5 SYSTEMPATH\Config\Services.php(280): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+ 6 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::filters()
+ 7 SYSTEMPATH\CodeIgniter.php(435): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:17:05 --> Call to undefined method App\Models\UserModel::get_user_data
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Home.php(242): CodeIgniter\Model->__call('get_user_data', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-27 13:18:00 --> mysqli_sql_exception: Unknown column 'profile' in 'field list' in C:\xampp\htdocs\projeto\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\projeto\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,'emai...', 0)
+#1 C:\xampp\htdocs\projeto\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,'emai...')
+#2 C:\xampp\htdocs\projeto\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,'emai...')
+#3 C:\xampp\htdocs\projeto\app\Models\UserModel.php(83): CodeIgniter\Database\BaseConnection->query('SELECT id,'emai...', Array)
+#4 C:\xampp\htdocs\projeto\app\Controllers\Home.php(242): App\Models\UserModel->get_user_data('6')
+#5 C:\xampp\htdocs\projeto\system\CodeIgniter.php(927): App\Controllers\Home->login_submit()
+#6 C:\xampp\htdocs\projeto\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\projeto\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projeto\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-27 13:18:00 --> Call to a member function getResultObject() on bool
+in APPPATH\Models\UserModel.php on line 83.
+ 1 APPPATH\Controllers\Home.php(242): App\Models\UserModel->get_user_data('6')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
